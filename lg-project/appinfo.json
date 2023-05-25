@@ -1,0 +1,18 @@
+{
+  "id": "com.apple.appletv.logsghd",
+  "version": "3.1.2",
+  "vendor": "Apple Inc.",
+  "type": "web",
+  "title": "Apple TV - Logs",
+  "icon": "AppleTV_80x80.png",
+  "largeIcon": "AppleTV_130x130.png",
+  "splashBackground": "AppleTV_Splash_1920x1080.png",
+  "main": "./index.html",
+  "disableBackHistoryAPI": true,
+  "resolution": "1280x720",
+	"iconColor": "aqua",
+	"accessibility": {
+		"supportsAudioGuidance": true
+	},
+	"deeplinkingParams": "{ \"contentTarget\": \"$CONTENTID\" }"
+}
