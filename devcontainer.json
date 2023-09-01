@@ -1,0 +1,22 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "LG Setup Environment",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/lg-project,type=bind",
+	"workspaceFolder": "/lg-project",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"dev.containers.defaultExtensions": [
+					"webOSTVSDK.webostv"
+				]
+			}
+			// "extensions": [
+			// 	"webOSTVSDK.webostv"
+			// ]
+		}
+	}
+}
